@@ -1,6 +1,6 @@
 <?php
 
-require ('https://rrjiovercel.vercel.app/api/token.php');
+require ('token.php');
 
 session_start();
 
