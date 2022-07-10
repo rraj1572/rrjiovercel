@@ -2,7 +2,7 @@
 header("Content-Type: application/vnd.apple.mpegurl");
 echo '#EXTM3U x-tvg-url="https://github.com/mitthu786/tvepg/releases/download/latest/epg.xml.gz"' . PHP_EOL;
 echo "<br>" . PHP_EOL;
-$json = json_decode(file_get_contents('assets/data/channels.json') , true);
+$json = json_decode(file_get_contents('https://rrjiovercel.vercel.app/assets/data/channels.json') , true);
 $LANG_MAP = array(
     6 => "English",
     1 => "Hindi",
