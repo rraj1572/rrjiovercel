@@ -1,5 +1,5 @@
 <?php
-require ('https://rrjiovercel.vercel.app/api/token.php');
+require ('token.php');
 
 $crm = $creds['sessionAttributes']['user']['subscriberId'];
 $uniqueId = $creds['sessionAttributes']['user']['unique'];
